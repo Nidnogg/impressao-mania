@@ -44,7 +44,7 @@ const Layout = ({children}) => {
               <br />
               */}
 
-              <a href="http://patreon.com/nidnogg" className="nav-link">Feito por nidnogg.</a> <br /> <br />
+              <a href="https://ko-fi.com/nidnogg" className="nav-link">Feito por nidnogg.</a> <br /> <br />
               Seja bem vindo à página da Impressão Mania. <br /> 
               Somos uma gráfica localizada na Praça Caridade.
               <br />
