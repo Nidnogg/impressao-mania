@@ -121,28 +121,25 @@ a:hover {
 .bread {
   cursor: pointer;
   position: fixed;
-  display: none;
+  display: block;
   top: 70px;
   right: 50px;
   z-index: 9999;
 }
 
-@media(max-width: 890px) {
-  .bread {
-    display: block;
-  }
-
-  .nav-items {
-    display: none;
-    opacity: 0;
-  
-  }
-
-  .nav-social {
-    display: none;
-    opacity: 0;
-  }
+.bread {
+  display: block;
 }
+
+.nav-items {
+  position: relative;
+  left: 0;
+
+}
+
+.nav-social {
+}
+
 
 .ham {
   position: relative;
@@ -203,7 +200,7 @@ a:hover {
   position: absolute;
   display: inline-block;
   top: 60px;
-  right: 50px;
+  left: 50px;
 }
 
 nav a {
@@ -214,13 +211,19 @@ nav a {
 }
 
 .logo {
-  width: 100%;
+  position: relative;
+  width: 300px;
   max-width: 110px;
   height: auto;
+  top: 40vh;
   padding: 0px 0px 0px 0px;
   /* top right bottom left */
 }
 
+.contact {
+  position: relative;
+  top: 40vh;
+}
 @media only screen and (max-width: 1050px) {
   .logo {
     margin: 0px 25vw 0px 25vw;

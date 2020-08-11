@@ -34,25 +34,19 @@ const Layout = ({children}) => {
       <div className="fixed-navbar">
         <nav className="navbar">
           <section className="mobile-menu" ref={menu}>
-
             <section className="mobile-nav-items">
+
+              {/*
               <Link href="/about">
                 <a className="nav-link">SOBRE</a>
               </Link>
               <br />
               <br />
+              */}
 
-              <Link href="/">
-                <a className="nav-link">LOJA</a>
-              </Link>
-              <br />
-              <br />
-
-              <Link href="/cart">
-                <a className="nav-link">CARRINHO
-                <img className="cart" src="/cart.png" alt="logo.png"/>
-                </a>
-              </Link>
+              <a href="http://patreon.com/nidnogg" className="nav-link">Apoie o desenvolvedor deste site clicando aqui!</a> <br /> <br />
+              Seja bem vindo à página da Impressão Mania. <br /> 
+              Somos uma gráfica localizada na Praça Caridade.
               <br />
               <br />
 
@@ -80,17 +74,24 @@ const Layout = ({children}) => {
           </section>
 
           <section className="nav-items">
+            {/*
+            
             <Link href="/about">
               <a className="nav-link">SOBRE</a>
             </Link>
+            
             <Link href="/">
               <a className="nav-link">LOJA</a>
             </Link>
+
+          
+            
             <Link href="/cart">
               <a className="nav-link">CARRINHO
               <img className="cart" src="/cart.png" alt="logo.png"/>
               </a>
             </Link>
+          */}
           </section>
 
           <img className="logo" src="/logo.png" alt="logo.png"/>

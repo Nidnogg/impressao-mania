@@ -8,7 +8,7 @@ const Home = () => {
     <Layout>
       <Head>
 
-        <title>Papura Cadernos</title>
+        <title>Impressão Mania</title>
         {/*
         <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
@@ -32,25 +32,9 @@ const Home = () => {
 
 
       </Head>
-      <section className="row">
-
-        <Link href="/products/p0">
-            <a className="column" href="prod1">
-              <img className="line-square" src="" alt="arti"/>
-            </a>
-        </Link>
-
-        <Link href="/products/p1">
-            <a className="column" href="prod2">
-              <img className="line-square" src="" alt="mini"/>
-            </a>
-        </Link> 
-
-        <Link href="/products/p2">
-            <a className="column" href="prod3">
-              <img className="line-square" src="" alt="trad"/>
-            </a>
-        </Link>
+      <section className="contact">
+        <h1>Contato:</h1>
+        <a href="impressaomania1000@gmail.com">impressaomania1000@gmail.com</a>
 
 
       </section>
